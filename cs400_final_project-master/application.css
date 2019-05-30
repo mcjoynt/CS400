@@ -1,0 +1,96 @@
+/* CSS Styling Sheet*/
+
+.middlePane{
+ 	-fx-fill: #9B0000;
+ 	
+ }
+ 
+ .rightPane{
+ 	-fx-fill: #C5050C;
+ }
+ .leftPane{
+ 	-fx-fill:#FFFFFF;
+ }
+ 
+ .scroll-pane > .viewport{
+ 	-fx-background-color: white;
+ 	-fx-background-insets:8,4,8,4;
+ 	-fx-background-radius: 8;
+
+ }
+ 
+ .scroll-bar{
+ 	-fx-background-color: white;
+ 	-fx-background-insets:8,4,8,4;
+ 	-fx-background-radius: 8;
+ 	-fx-padding: 5.0px ;
+ }
+ 
+ .scroll-pane {
+ 	-fx-background: #FFFFFF;
+ 	-fx-background-insets:8,4,8,4;
+ 	-fx-background-radius: 8;
+ 	-fx-padding: 15.0px,0px,15px,0px ;
+ }
+ 
+ #vbox-list{
+ 	-fx-background-color: white;
+ 	-fx-spacing:2;
+ 	-fx-background-insets:8,4,8,4; 
+	-fx-background-radius: 8;
+ }
+ 
+ #vbox-manual{
+ 	-fx-spacing:8;
+ 	-fx-padding:10;
+ }
+ 
+ #vbox-analyze{
+ 	-fx-spacing:25;
+ 	-fx-padding:20;
+ }
+ 
+ .header{
+ 	-fx-text-fill: white;
+ 	-fx-font-size: 20px;
+ 	-fx-padding: 4,4,4,4;
+ 	
+ }
+ 
+ .mainHeader{
+ 	-fx-text-fill: grey;
+ 	-fx-font-size: 20px;
+ 	-fx-text-alignment: center;
+ }
+ 
+ .searchBox{
+ 	-fx-insets:4,4,4,4;/*fix alignment and indentation */
+ }
+ 
+ .text-field-error{
+ 	-fx-text-box-border: red;
+ 	-fx-focus-color: red;
+ }
+ 
+ #vbox-radio{
+ 	-fx-spacing:4;
+ 	-fx-padding:8;
+ }
+ .button{
+ 	-fx-background-radius:8; /*this is adapted automatically doesn't need to be added */
+ 	-fx-alignment:center;/*within button */
+ 	-fx-background-color:white;
+ }
+ .buttonStyle2{
+ 	-fx-background-radius:8; /*this is adapted automatically doesn't need to be added */
+ 	-fx-alignment:center;/*within button */
+ 	-fx-text-fill:white;
+ 	-fx-background-color:#C5050C;
+ }
+ .buttonStyle3{
+ 	-fx-background-radius:8; /*this is adapted automatically doesn't need to be added */
+ 	-fx-alignment:center;/*within button */
+ 	-fx-text-fill:white;
+ 	-fx-background-color:#9B0000;
+
+ }
